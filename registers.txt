@@ -1,0 +1,55 @@
+            +-------------------------------------+
+            |               CPU                   |
+            +-------------------------------------+
+            |                                     |
+            |          +-------------+            |
+            |          |  Registers  |            |
+            |          +-------------+            |
+            |          | General     |            |
+            |          |   Purpose   |            |
+            |          +-------------+            |
+            |          |  AX         |            |
+            |          |  BX         |            |
+            |          |  CX         |            |
+            |          |  DX         |            |
+            |          +-------------+            |
+            |                                     |
+            |          +-------------+            |
+            |          | Special     |            |
+            |          |   Purpose   |            |
+            |          +-------------+            |
+            |          |  Stack      |            |
+            |          |  Pointer    |            |
+            |          |  Base       |            |
+            |          |  Index      |            |
+            |          +-------------+            |
+            |                                     |
+            +-------------------------------------+
+
+### Introduction to Registers in CPU
+
+Registers are small, high-speed storage locations located directly inside the central processing unit (CPU). They play a crucial role in enhancing the efficiency of data processing and preventing data loss during computation.
+
+Purpose
+- Registers were introduced to address the limitation of data loss during CPU-RAM communication.
+- They act as temporary storage locations for data during processing, ensuring quick access and manipulation.
+
+Types of Registers
+- General-Purpose Registers Versatile registers used for a wide range of tasks.
+  - Examples include AX, BX, CX, and DX, each with its specific role.
+  - AX (Accumulator): Used for arithmetic and logic operations.
+  - BX (Base): Holds base addresses for accessing data structures.
+  - CX (Counter): Used as a loop counter in iterative operations.
+  - DX (Data): Stores overflowed bits during arithmetic operations.
+
+Naming Convention
+- Registers are named based on their size: AX for 16-bit, EAX for 32-bit, and RAX for 64-bit.
+- They can be divided into high and low parts for efficient data handling.
+
+Usage Examples
+- AX is versatile, used for arithmetic, input/output, and general operations.
+- BX often holds base addresses for data structures like arrays or linked lists.
+- CX serves as a loop counter, facilitating iterative processes.
+- DX acts as a backup for overflowed bits during arithmetic operations.
+
+Registers are essential components of the CPU, ensuring efficient data processing and preventing loss or corruption of data during computation.
